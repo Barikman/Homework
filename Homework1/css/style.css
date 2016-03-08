@@ -1,0 +1,13 @@
+*, html, body{ padding: 0; margin: 0; outline: none; }
+h2 { margin-top:20px; font-size:30px; text-align: center;}
+hr { margin-left:45px; margin-top:15px; text-align:center; width:80%; }
+.main  { background:#eee; width:1280px; margin: 0 auto; padding:15px; font-size:18px; }
+
+.centr { background:#fff; width: 560px; height: 770px; box-shadow: 0 0 5px; margin: 0 auto; }
+.pic { margin-top:10px; text-align:center; }
+.text { text-align:center; padding:10px; }
+.line { margin-top:10px; text-align:center; }
+.spisok1 { margin-top:15px; margin-left:70px; line-height:25px; }
+.spisok1 ul { margin-top:20px; }
+.spisok2 { margin-top:15px; margin-left:55px; line-height:25px; margin-bottom:20px;}
+.spisok2 ul { margin-top:20px; list-style:none; }
