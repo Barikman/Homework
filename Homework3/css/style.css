@@ -1,24 +1,140 @@
-*, html, body{ padding: 0; margin: 0; outline: none;}
-h2 { margin-top:20px; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:35px;}
-.main  { width: 970px; height: auto; margin: 0 auto; }
-.menu { margin-top:18px; width: 970px; height: 47px; display: inline-block; background:#555555; float: left;}
-.menu ul { list-style: none;}
-.menu ul li { float: left;  width:auto; height: 32px; padding: 15px 30px 0px 30px; cursor:pointer;}
-.menu ul li:hover { background: #464646; }
-.menu ul li a { text-decoration: none; color: white; font-size: 16px; text-align:center; font-weight:500;}
-.block { float:left; margin-top:30px; width:200px; height:192px; }
-.block ul { list-style: none; margin: 0; padding: 0; font-size:13pt; }
-.block ul li { cursor:pointer; }
-.block li a { display:block; padding:5px; text-decoration: none; color:#656363; border: 1px solid #c8c8c8; }
-.block li a:hover { background-color:#eeeeee; padding-left: 20px; }
-.pic { margin-top:30px; width:750px; height:330px; text-align:center; border:1px solid #c8c8c8; float:right; }
-.pic img { max-height: 100%; max-width:100%; vertical-align:middle; }
-.blockt { margin-right:40px; margin-top:25px; width:675px; height:140px; float:right; text-align: justify }
-.menub { width: 730px; height: 47px; display: inline-block; background:#efefef; float: left;}
-.menub ul { list-style: none;}
-.menub ul li { float: left;  width:auto; height: 32px; padding: 15px 30px 0px 30px; cursor:pointer;}
-.menub ul li a { text-decoration: none; color: black; font-size: 16px; text-align:center; font-weight:300; font-weight:500;}
-.menub ul li:hover { text-decoration: underline; }
-.copyr { height:47px; width:240px; background:#efefef; margin-left:730px; margin-top:-47px; float:right; }
-.copyr ul { list-style:none; font-size:13pt; }
-.copyr ul li { padding: 15px 0 0 0; }
+*, html, body{
+	padding: 0;
+	margin: 0;
+	outline: none;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h2{
+	margin-top:20px;
+	font-size:35px;
+}
+.main{
+	width: 970px;
+	height: auto;
+	margin: 0 auto;
+}
+.topmenu{
+	margin-top:18px;
+	width: 970px;
+	height: 47px;
+	display: inline-block;
+	background: linear-gradient(to bottom, #5e5e5e, #444343);
+}
+.topmenu ul{
+	list-style: none;
+}
+.topmenu ul li{
+	float: left;
+	width:auto;
+	height: 32px;
+	padding: 13px 30px 0px 30px;
+	cursor:pointer;
+	border: 1px solid transparent;
+}
+.topmenu ul li:hover{
+	background: linear-gradient(to bottom, #4a4a4a, #2f2f2f);
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+}
+.topmenu ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	text-align:center;
+	font-weight:500;
+	position:relative;
+}
+.leftmenu{
+	float:left;
+	margin-top:30px;
+	width:200px;
+	height:192px;
+}
+.leftmenu ul{
+	list-style: none;
+	font-size:10pt;
+}
+.leftmenu ul li{
+	cursor:pointer;
+	height:41px;
+	border-top: 1px solid #c8c8c8;
+    border-left: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+}
+.leftmenu ul:last-child{
+	border-bottom: 1px solid #c8c8c8;
+}
+.leftmenu li a{
+	display:block;
+	padding:13px;
+	text-decoration: none;
+	color:#656363;
+}
+.leftmenu li a:hover{
+	background-color:#f9f9f9;
+	padding-left: 25px;
+}
+.pic{
+	margin-top:30px;
+	width:750px;
+	height:330px;
+	text-align:center;
+	border:1px solid #c8c8c8;
+	float:right;
+}
+.pic img{
+	max-height: 100%;
+	max-width:100%;
+	vertical-align:middle;
+}
+.text{
+	margin-right:40px;
+	margin-top:25px;
+	width:675px;
+	height:140px;
+	float:right;
+	text-align: justify;
+}
+.footer{
+	width: 730px;
+	height: 47px;
+	display: inline-block;
+	background:#e1e1e1;
+	float: left;
+}
+.footer ul{
+	list-style: none;
+}
+.footer ul li{
+	float: left;
+	width:auto;
+	height: 32px;
+	padding: 15px 30px 0px 30px;
+	cursor:pointer;
+}
+.footer ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	text-align:center;
+	font-weight:300;
+	font-weight:500;
+}
+.footer ul li:hover{
+	text-decoration: underline;
+}
+.rights{
+	height:47px;
+	width:240px;
+	background:#e1e1e1;
+	margin-left:730px;
+	margin-top:-47px;
+	float:right;
+}
+.rights ul{
+	list-style:none;
+	font-size:13pt;
+}
+.rights ul li{
+	padding: 15px 0 0 0;
+}
