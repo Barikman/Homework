@@ -14,40 +14,128 @@ body { background:url(../images/background.jpg); background-repeat: no-repeat; }
     font-style: normal;
 }
 
-.main  { width: 1215px; height:1028px; margin: 0 auto; position:relative; font-family:"Helvetica Neue"; }
+.main{
+	width: 1215px;
+	height:1028px;
+	margin: 0 auto;
+	position:relative;
+	font-family:"Helvetica Neue";
+}
+.strip{
+	margin:0 auto;
+	width: 1215px;
+	height: 35px;
+	background:#07508f;
+	position:relative;
+	font-family:"Helvetica Neue";
+}
+.menuleft{
+	position:absolute;
+	left: 482px;
+} 
+.menuleft ul { list-style: none; }
+.menuleft ul li{
+	float: left;
+	padding: 6px 10px 10px 10px;
+}
+.menuleft ul li a{
+	text-decoration: none;
+	color:#5cb0e8;
+	font-size: 15px;
+}
+.menuleft ul li:hover { color:#fff; background: #4eabda; }
+.menuleft ul li:hover a { color:#fff;}
 
+.menuright{
+	position:absolute;
+	right:10px;
+}
+.menuright ul{list-style: none;}
+.menuright ul li{
+	float: left;
+	padding: 7px 10px 9px 11px;
+}
+.menuright ul li:last-child{
+	background: linear-gradient(to bottom, #67c6e6, #2e7ac4);
+}
+.menuright ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	text-align:center;
+}
+.menuright ul li span:hover {text-decoration:underline; }
 
-.strip { margin:0 auto; width: 1215px; height: 35px; background:#07508f;  position:relative; font-family:"Helvetica Neue"; }
-
-.menu1 { float:left; position:absolute; left: 482px; } 
-.menu1 ul { list-style: none; }
-.menu1 ul li { float: left;  padding: 6px 10px 10px 10px; cursor:pointer; }
-.menu1 ul li a { text-decoration: none; color:#5cb0e8; font-size: 15px; text-align:center; }
-.menu1 ul li:hover { background: #4eabda; }
-.menu1 ul li:hover a { color:#fff; }
-
-.menu2 { position:absolute; right:10px;}
-.menu2 ul { list-style: none;  }
-.menu2 ul li { float: left;  padding: 7px 10px 9px 11px; cursor:pointer;}
-.menu2 ul li:hover { background: linear-gradient(to bottom, #67c6e6, #2e7ac4); }
-.menu2 ul li a { text-decoration: none; color: white; font-size: 16px; text-align:center; }
-.menu2 ul li span {text-decoration:underline; }
-
-.forma { color:#fff; width:560px; height:613px; background: rgba(0, 0, 0, 0.6); position:absolute; left:353px; top:213px; }
-
-.cadastre { font-size:25px; font-weight:700; text-align:center; padding:17px; }
-.line { position:relative;  }
-.facebook { position:relative; top:35px; left:142px }
-.palka { position:relative; top:55px; left:142px; }
-.OU { position:relative; top:42px; left: 271px; color:grey; font-weight:700; font-size:13px; }
-
-.inputs ul { list-style:none; position:relative; top:58px; }
-.inputs ul li { text-align:center; padding:9px; }
-.inputs ul li p { width:325px; height:auto; font-size:12px; position: relative; left:100px; }
-
-.pole { color:#fff; width:240px; height:35px; font-size:14px; padding:0 17px; background:black; border:0; }
-.pole:focus { color:white; background:#1b5288; box-shadow: 0px 0px 8px 7px rgba(104,155,204,0.5); }
-.button { color:white; border-radius:3px 3px 3px 3px;  font-size:15px; padding: 0 10px; background: linear-gradient(to bottom, #67c6e6, #2e7ac4); border:none; width:149px; height:35px; }
-
-
-
+.form{
+	color:#fff;
+	width:560px;
+	height:613px;
+	background: rgba(0, 0, 0, 0.6);
+	position:absolute;
+	left:353px;
+	top:213px;
+}
+.cadastre{
+	font-size:25px;
+	font-weight:700;
+	text-align:center;
+	padding:17px;
+}
+.facebook{
+	position:relative;
+	top:35px;
+	left:142px;
+}
+.miniline{
+	position:relative;
+	top:55px;
+	left:142px;
+}
+.OU{
+	position:relative;
+	top:42px;
+	left: 271px;
+	color:grey;
+	font-weight:700;
+	font-size:13px;
+}
+.input ul{
+	list-style:none;
+	position:relative;
+	top:58px;
+}
+.input ul li{
+	text-align:center;
+	padding:9px;
+}
+.input ul li p{
+	width:325px;
+	height:auto;
+	font-size:12px;
+	position: relative;
+	left:100px;
+}
+.pole{
+	color:#fff;
+	width:240px;
+	height:35px;
+	font-size:14px;
+	padding:0 17px;
+	background:black;
+	border:0;
+}
+.pole:focus{
+	color:white;
+	background:#1b5288;
+	box-shadow: 0px 0px 8px 7px rgba(104,155,204,0.5);
+}
+.button{
+	color:white;
+	border-radius:3px 3px 3px 3px;
+	font-size:15px;
+	padding: 0 10px;
+	background: linear-gradient(to bottom, #67c6e6, #2e7ac4);
+	border:none;
+	width:149px;
+	height:35px;
+}
